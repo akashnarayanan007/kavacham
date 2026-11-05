@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+primaryColor = "#256abf"
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f1f0ec"
+textColor = "#0b0b0b"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+baseRadius = "12px"
+buttonRadius = "8px"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+port = 8901  # Windows reserves 8462-8861 on this machine, including the default 8501
+maxUploadSize = 1024  # MB. 90 sec of phone video can pass the 200 MB default; SAM takes up to 1 GiB
