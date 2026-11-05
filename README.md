@@ -1,5 +1,7 @@
 # Kavacham: Turn 90 sec phone video into junction-risk report
 
+Live: https://kavacham.streamlit.app/
+
 Kavacham tracks road users in a phone video of a junction using Meta's SAM 3.1 model. It writes per-frame tracks and an annotated video for later risk analysis.
 
 ## Setup
