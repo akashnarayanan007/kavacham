@@ -79,7 +79,7 @@ flowchart LR
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/akashnarayanan07/kavacham.git
+git clone https://github.com/akashnarayanan007/kavacham.git
 cd kavacham
 
 # 2. Create virtual environment
