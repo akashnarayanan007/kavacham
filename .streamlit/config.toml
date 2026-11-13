@@ -1,13 +1,13 @@
 [theme]
 base = "light"
-primaryColor = "#256abf"
-backgroundColor = "#fcfcfb"
-secondaryBackgroundColor = "#f1f0ec"
-textColor = "#0b0b0b"
-font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
-baseRadius = "12px"
-buttonRadius = "8px"
+primaryColor = "#0284C7"
+backgroundColor = "#F1F5F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+font = "Inter:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+baseRadius = "14px"
+buttonRadius = "10px"
 
 [client]
 toolbarMode = "minimal"
