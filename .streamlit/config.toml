@@ -12,6 +12,5 @@ buttonRadius = "10px"
 toolbarMode = "minimal"
 
 [server]
-port = 8901  # Windows reserves 8462-8861 on this machine, including the default 8501
-maxUploadSize = 2048  # MB. Allow up to 2 GB videos
-maxMessageSize = 2048
+maxUploadSize = 1000  # MB.
+maxMessageSize = 1000
