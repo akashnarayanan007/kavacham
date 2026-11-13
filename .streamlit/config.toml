@@ -4,8 +4,7 @@ primaryColor = "#0284C7"
 backgroundColor = "#F1F5F9"
 secondaryBackgroundColor = "#FFFFFF"
 textColor = "#0F172A"
-font = "Inter:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
-headingFont = "Inter:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+font = "sans serif"
 baseRadius = "14px"
 buttonRadius = "10px"
 
@@ -14,4 +13,5 @@ toolbarMode = "minimal"
 
 [server]
 port = 8901  # Windows reserves 8462-8861 on this machine, including the default 8501
-maxUploadSize = 1024  # MB. 90 sec of phone video can pass the 200 MB default; SAM takes up to 1 GiB
+maxUploadSize = 2048  # MB. Allow up to 2 GB videos
+maxMessageSize = 2048
